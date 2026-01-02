@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest Control - Agri Hub</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-slate-50 font-sans text-gray-900">
+
+    <nav class="bg-green-700 sticky top-0 z-50 shadow-md">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <span class="self-center text-3xl font-bold whitespace-nowrap text-white">Agri Hub</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-green-600 rounded-lg bg-green-800 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-green-700">
+                    <li><a href="./index.html"
+                            class="block py-2 px-3 text-white hover:text-yellow-300 transition">Home</a></li>
+                    <li><a href="./Farming.html"
+                            class="block py-2 px-3 text-white hover:text-yellow-300 transition">Farming Guide</a></li>
+                    <li><a href="./Crop.html" class="block py-2 px-3 text-white hover:text-yellow-300 transition">Crop
+                            Details</a></li>
+                    <li><a href="./Pest.html"
+                            class="block py-2 px-3 text-yellow-300 font-bold underline decoration-2 underline-offset-4">Pest
+                            Control</a></li>
+                    <li><a href="./Contact.html"
+                            class="block py-2 px-3 text-white hover:text-yellow-300 transition">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-slate-900 h-[300px] md:h-[400px] flex items-center justify-center overflow-hidden">
+        <img class="absolute inset-0 object-cover w-full h-full opacity-50" src="./asset-1/3.png" alt="Pest Control">
+        <div class="relative z-10 text-center px-6">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">Pest Control Strategies</h1>
+            <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">Learn advanced Integrated Pest Management
+                (IPM) techniques to protect your crops naturally and effectively.</p>
+        </div>
+    </header>
+
+    <section class="py-16 max-w-screen-xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Integrated Pest Management (IPM)</h2>
+            <div class="h-1 w-24 bg-green-600 mx-auto rounded-full"></div>
+            <p class="text-gray-500 mt-6 max-w-2xl mx-auto">Combining biological, physical, and chemical tools in a way
+                that minimizes economic, health, and environmental risks.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-green-300 hover:shadow-xl transition-all duration-300 group">
+                <div
+                    class="bg-green-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-green-600 transition-colors">
+                    <svg class="w-8 h-8 text-green-600 group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Biological Controls</h3>
+                <p class="text-gray-600 text-sm leading-relaxed mb-4">Using natural enemies like predators (ladybugs),
+                    parasites, and pathogens to control pest populations without chemicals.</p>
+                <ul class="text-xs text-green-700 font-semibold space-y-1">
+                    <li>• Beneficial Insects</li>
+                    <li>• Microbial Pesticides</li>
+                </ul>
+            </div>
+
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-blue-300 hover:shadow-xl transition-all duration-300 group">
+                <div
+                    class="bg-blue-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
+                    <svg class="w-8 h-8 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Organic Remedies</h3>
+                <p class="text-gray-600 text-sm leading-relaxed mb-4">Utilizing neem oil, garlic sprays, and crop
+                    rotation to deter pests while maintaining the organic integrity of your farm.</p>
+                <ul class="text-xs text-blue-700 font-semibold space-y-1">
+                    <li>• Botanical Sprays</li>
+                    <li>• Crop Rotation</li>
+                </ul>
+            </div>
+
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-orange-300 hover:shadow-xl transition-all duration-300 group">
+                <div
+                    class="bg-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-orange-600 transition-colors">
+                    <svg class="w-8 h-8 text-orange-600 group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Early Detection</h3>
+                <p class="text-gray-600 text-sm leading-relaxed mb-4">Regular field scouting and pheromone traps to
+                    identify infestations before they reach an economic injury level.</p>
+                <ul class="text-xs text-orange-700 font-semibold space-y-1">
+                    <li>• Field Scouting</li>
+                    <li>• Pheromone Traps</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 px-4">
+        <div class="max-w-screen-xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="w-full md:w-1/2">
+                    <img class="rounded-3xl shadow-2xl border-8 border-slate-50"
+                        src="https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=800&q=80"
+                        alt="Farmer checking crops">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6">Tips for Effective Treatment</h2>
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <span
+                                class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">1</span>
+                            <div>
+                                <h4 class="font-bold text-lg">Identify the Pest Correctly</h4>
+                                <p class="text-gray-600">Not all insects are harmful. Identify your enemy before
+                                    choosing a treatment.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span
+                                class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">2</span>
+                            <div>
+                                <h4 class="font-bold text-lg">Spot Treatment</h4>
+                                <p class="text-gray-600">Instead of spraying the whole field, target only the infested
+                                    areas to save costs.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <span
+                                class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">3</span>
+                            <div>
+                                <h4 class="font-bold text-lg">Proper Timing</h4>
+                                <p class="text-gray-600">Apply treatments during the pest's most vulnerable life stage
+                                    (usually early larval stages).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="mt-10 bg-green-700 text-white px-8 py-3 rounded-xl font-bold hover:bg-green-800 transition shadow-lg">Download
+                        Treatment Guide (PDF)</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-green-900 text-white pt-16 pb-8 px-4">
+        <div class="max-w-screen-xl mx-auto border-t border-green-800 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold">Agri Hub</h2>
+                    <p class="text-green-300 text-sm mt-2">Your trusted partner for sustainable farming.</p>
+                </div>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-yellow-300 transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-yellow-300 transition">Terms of Service</a>
+                </div>
+            </div>
+            <p class="text-center text-green-400 text-xs mt-12">© 2026 Mahin™. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+
+</body>
+
+</html>
